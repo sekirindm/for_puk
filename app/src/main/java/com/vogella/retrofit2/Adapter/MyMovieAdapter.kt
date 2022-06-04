@@ -14,9 +14,7 @@ import com.vogella.retrofit2.R
 import kotlinx.android.synthetic.main.item_layout.view.*
 
 
-class MyMovieAdapter(private val context: Context,
-                     private val movieList: MutableList<Movie>)
-                :RecyclerView.Adapter<MyMovieAdapter.MyViewHolder>() {
+class MyMovieAdapter(private val context: Context, private val movieList: MutableList<Movie>) :RecyclerView.Adapter<MyMovieAdapter.MyViewHolder>() {
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val image: ImageView = itemView.image_movie

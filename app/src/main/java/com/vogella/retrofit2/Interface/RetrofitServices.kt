@@ -7,6 +7,6 @@ import retrofit2.http.*
 
 interface RetrofitServices {
 
-    @GET("mar  vel")
+    @GET("marvel")
     fun getMovieList() : Call<MutableList<Movie>>
 }
